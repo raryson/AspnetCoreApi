@@ -40,7 +40,6 @@ namespace AspnetCoreAPi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

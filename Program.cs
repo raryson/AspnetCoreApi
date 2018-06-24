@@ -19,6 +19,7 @@ namespace AspnetCoreAPi
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://localhost:7000")
                 .UseStartup<Startup>();
     }
 }
